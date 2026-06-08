@@ -13,10 +13,25 @@
 - Irytacja: quarterstaffs biją za wolno (auto-ataki) → rozwiązanie: Tempest Flurry
 
 ### Otwarte pytania
-- Jak aktywnie wykorzystać dual maces secondary? Switch na bossach?
-- Jaka jest dobra kolejność ascendancy nodów dla Invoker?
-- Czy jest sens inwestować w Chaos Resistance podczas leveling?
+- [x] Jak aktywnie wykorzystać dual maces secondary? → **Set II = boss set.** Mace Strike + Uul-Netol's Embrace (Chaos + Armour Break). Switch na najtrudniejszych bossach.
+- [x] Jaka jest dobra kolejność ascendancy nodów? → **"I am the Thunder" → "Sunder my Enemies" → "Scatter" → "Master"**
+- [x] Czy inwestować w Chaos Resistance podczas leveling? → **TAK, dla survivalu.** Twoja chaos res = obrona przed wrogami. Chaos dmg który zadajesz = trafia przez WROGÓW chaos resistance (early game: 0%). Obie rzeczy, różne mechaniki.
 
 ### Do przetestowania
-- Tempest Flurry zamiast auto-ataków — czy czuć różnicę?
-- Herald of Thunder vs Herald of Ice — który lepiej pracuje z playstyle'm?
+- [x] Tempest Flurry zamiast auto-ataków — tak, to main attack od lvl 12+
+- [x] Herald of Thunder vs Herald of Ice → **Herald of Thunder** (synergia z lightning build). Rozważyć: Herald of Agony (chaos-based) gdy Chaos system będzie gotowy.
+- [ ] Esh's Radiance na Thunderstorm — przetestować Chaos → Shock buildup
+- [ ] Power Charge generation przez pasywki — znaleźć węzeł "on shock" lub "on critical"
+
+## 2026-06-08 — Sesja 7
+
+### Kierunek budowy: Lightning + Chaos
+- Tematycznie: DarthLuke Skywalker = Force Lightning + Dark Side Chaos
+- Chaos secondary: nigdy immune, Esh's Radiance = chaos buduje Shock (oba elementy → jeden ailment)
+- Graf graficznym (graphify): 10 communities, god node = Monk Invoker Ascendancy (12 edges)
+
+### Biblioteka socketables (gotowa)
+- 77 basic runes, 34 ancient runes, 17 warding runes, 89 named runes
+- 78 abyss soul cores, 13 verisium alloys, 9 jewels, 31 talismans
+- Pliki: skill_graph.json, support_gems.json (c:\Micro_Projrcts\Poe2\)
+- Regeneracja: `python build_graph.py` + `python build_socketables.py`
