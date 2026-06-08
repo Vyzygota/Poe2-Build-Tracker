@@ -5,168 +5,64 @@
 
 ---
 
-## Jak działa ten build (core loop)
+## Core Loop
 
 ```
 Set I (QS — clear):
-  Tempest Flurry [x3 ciosy] → generuje combo → Crescendo (4. cios = AoE lightning)
-  Thunderstorm   [drop + idź] → pasywny AoE, buduje Shock przez Esh's Radiance (Chaos → Shock!)
-  Spark          → projectile lightning cleanup
+  Tempest Flurry [x3 ciosy] → combo → Crescendo (4. cios = AoE lightning burst)
+  Thunderstorm   [drop + idź] → pasywny AoE, Chaos → Shock (Esh's Radiance)
+  Spark          → projectile cleanup
 
 Set II (Dual Mace — boss):
-  Mace Strike → Uul-Netol's Embrace (Chaos + Armour Break) per hit
-  Thunderstorm  → współdzielony, ciągnie oba sety
+  Mace Strike → Chaos + Armour Break (Uul-Netol's Embrace)
+  Thunderstorm  → współdzielony między setami
 ```
 
-**Dlaczego Chaos jako secondary:**
-- Lightning immunity u niektórych bossów = 0 damage. Chaos NIE MA immunities w PoE2.
-- Esh's Radiance: Chaos damage buduje Shock — oba elementy wzmacniają TEN SAM ailment.
-- Fenumus' Rune of Agony ×2 = +26% auto-Chaos na każdym hicie bez dodatkowego skilla.
+**Dlaczego Chaos secondary:** Lightning ma immunity u niektórych bossów. Chaos nie ma nigdy.  
+Esh's Radiance: Chaos damage **buduje Shock** — oba elementy pompują ten sam ailment.
 
 ---
 
 ## Dlaczego Invoker?
 
-1. **"I am the Thunder..."** — +% dmg jako Lightning, porażenie tworzy naładowany grunt
-2. **"Sunder my Enemies..."** — Crits ignorują elemental resistancje wrogów *(ogromne dla lightning+chaos)*
-3. **"...and Scatter Them to the Winds"** — Elemental Expression: melee crit = automatyczny czar
+1. **"I am the Thunder..."** — +10% dmg jako Lightning, Shocked Ground na shocku
+2. **"Sunder my Enemies..."** — Crits ignorują elemental res wrogów *(kluczowe dla lightning+chaos)*
+3. **"...and Scatter Them to the Winds"** — melee crit = automatyczny czar (Elemental Expression)
 4. **"Master of the Elements"** — bonus elemental dmg
-
----
-
-## Aktywne skille (lvl 19, PoB potwierdzone)
-
-| Skill | Set | Supporty | Uwagi |
-|---|---|---|---|
-| Tempest Flurry lvl 5 | I (QS) | Crescendo + Rapid Attacks I | Main attack, combo builder |
-| Falling Thunder lvl 5 | I (QS) | Rapid Attacks I + Perpetual Charge | QS-only — porzucić przy wejściu na Seeing Stars |
-| Thunderstorm lvl 5 | oba | Spell Echo + **Esh's Radiance** | Chaos → Shock buildup! |
-| Spark lvl 4 | oba | brak (Pierce I = #1 priorytet) | |
-| Mace Strike lvl 6 | II (mace) | Rapid Attacks I + **Uul-Netol's Embrace** | Chaos + Armour Break |
-| Armour Breaker lvl 4 | II (mace) | Armour Demolisher I + Armour Explosion | Utility opancerzeni |
-| Herald of Thunder lvl 4 | oba | Magnified Area I + Lightning Attunement | Rezerwuje całe Spirit 30/30 |
-| Quarterstaff Strike lvl 6 | I (QS) | Rapid Attacks I + Brutality I | **Brutality usuwa elemental! Zamienić.** |
-
-> **[!] Thunderstorm support do zmiany:** Prolonged Duration → Esh's Radiance gdy zdobędziesz.
 
 ---
 
 ## Roadmapa broni
 
 ```
-lvl 19 now  →  QS (Tempest Flurry) + 2× dowolne 1H mace
-lvl 26      →  QS + 2× Seeing Stars (+66-90 flat lightning each, energy gen ×2)
-lvl 65      →  QS + 2× Mjölnir Torment Club (214 Str + 200 Int)
-               "Level 15 Lightning Spell on Hit" × 2 = każdy atak odpala 2 lightning spelle
+lvl 19  →  QS + 2× dowolne 1H mace
+lvl 26  →  QS + 2× Seeing Stars (+66-90 flat lightning, energy gen ×2)
+lvl 65  →  QS + 2× Mjölnir Torment Club (214 Str + 200 Int)
+           "Level 15 Lightning Spell on Hit" ×2 per atak
 ```
-
-**Seeing Stars** (lvl 26 one-hand mace): priorytet farm/trade przy wejściu do Act 2–3.
-
----
-
-## Passive Tree — priorytety
-
-### Teraz (lvl 19, Act 1)
-- **Resistances FIX:** Fire -48%, Lightning -42% — krytyczne przed Act 2
-- **Staunching** (dist 6 od startu, +10 Str) → buduje Str do Mjölnira
-- **Tenfold Attacks** (dist 7, +10 Str) → j.w.
-
-### Act 2–3
-- Power Charge generation/retention nodes ← **PRIORYTET** (patrz sekcja poniżej)
-- Attack Speed (Tempest Flurry skaluje mocno)
-- Lightning Damage
-
-### Endgame
-- Critical Strike Chance (base crit Monk + Invoker "Sunder" = crits ignorują res)
-- Elemental Penetration
-- Evasion / Energy Shield hybrid
-
----
-
-## ⚠️ Znane problemy — do naprawienia
-
-### 1. Power Charge generation — ROZWIĄZANE ✓
-
-**Rozwiązanie: Ailith's Chimes (T1 DEX support) na Tempest Flurry**
-
-> *"On expending Combo with Supported Skills, chance to gain Power Charges based on combo expended"*
-
-Tempest Flurry buduje combo (3 ciosy) i expenduję je przy 4. uderzeniu (Crescendo). Ailith's Chimes podpięte pod TF = **Power Charge przy każdym combo cycle** — kilka razy na sekundę.
-
-```
-Tempest Flurry → Crescendo + Ailith's Chimes [+ Rapid Attacks gdy 3. slot]
-```
-
-- **Atrybut:** DEX (zielony), T1 — craftuj z następnego Uncut Support Gem T1
-- **Teraz (2 sloty):** Crescendo + Ailith's Chimes (Rapid Attacks tymczasowo out)
-- **3. slot gdy odblokuje:** Crescendo + Rapid Attacks + Ailith's Chimes
-
-**Passive tree bonus (gdy punkty):**
-- **The Power Within** (dist 5 od buildu) — +1 max Power Charge, +20% crit dmg gdy masz ładunek
-- Resonance (dist 8) — SKIP: ścieżka przez 7 atrybutowych węzłów, brak frenzy gen po drodze
-
-### 2. Resistances za niskie [KRYTYCZNE przed Act 2]
-- Fire: -48% | Lightning: -42% | Cold: +18%
-- Fix: Lesser/Storm Rune w każdy slot gear który możesz; wymiana itemów z resists
-
-### 3. Brutality I na QS Strike [DO WYMIANY]
-- Brutality usuwa elemental damage — sprzeczne z lightning buildem
-- Wymienić na: Rapid Attacks II lub Lightning Attunement I
-
-### 4. Spirit: 30/30 (0 wolne)
-- Herald of Thunder zajmuje wszystko
-- Przy levelu nie wchodzi nic nowego dopóki nie wzrośnie Spirit pool
-
----
-
-## Ascendancy — kolejność nodów (potwierdzona)
-
-1. **"I am the Thunder..."** ← pierwszy punkt Lab (Normal Lab, po Act 3)
-2. **"Sunder my Enemies..."** ← Cruel Lab
-3. **"...and Scatter Them to the Winds"** ← Merciless Lab
-4. **"Master of the Elements"** ← Endgame Lab
-
----
-
-## Gem rekomendacje (z bazy repoe-fork)
-
-| Skill | Aktywne supporty | Następny priorytet |
-|---|---|---|
-| Tempest Flurry | Crescendo + Rapid Attacks I | **Ailith's Chimes** (T1 DEX) → Power Charges |
-| Thunderstorm | Spell Echo + Prolonged Duration | **Esh's Radiance** (INT) → Chaos buduje Shock |
-| Spark | brak | **Pierce I** (nr 1 w grze) |
-| Mace Strike | Rapid Attacks I + Concussive Runes | **Uul-Netol's Embrace** (STR) → Chaos + Armour Break |
-| QS Strike | Rapid Attacks I + Brutality I | **Zamienić Brutality** → Lightning Attunement I |
-
----
-
-## Plan runiczny (endgame)
-
-| Slot | Runa | Efekt |
-|---|---|---|
-| Mace ×2 | Legacy of Brain Rattler | Każde trafienie → Electrocution buildup |
-| Mace ×2 | Legacy of Mjölner | +3 Level all Lightning Skills |
-| Helm / Chest | Fenumus' Rune of Agony ×2 | +26% auto-Chaos total |
-| Gloves / Boots | Storm Rune lub Greater Storm Rune | +14–18% Lightning Resistance |
-| Rings | Ire of Aldur | Konwertuje Fire+Cold mody → Lightning |
-| Amulet | Saqawal's Rune of the Sky | +5% dmg jako wszystkie elementy |
 
 ---
 
 ## Statystyki (lvl 19)
 - Life: 361 · ES: 158 · Evasion: 296
-- Fire: **-48%** · Lightning: **-42%** · Cold: +18%
-- Str: 31 · Dex: 42 · Int: 35
-- Spirit: 30/30 (full — Herald rezerwuje wszystko)
+- Fire: **-48%** · Lightning: **-42%** · Cold: +18% ← FIX PRIORITY
+- Str: 31 · Dex: 42 · Int: 35 · Spirit: 30/30
 
 ---
 
-## Sesja — log zmian
+## Zobacz też
+- [Gemy i supporty](gems.md) — aktualny stan + priorytety
+- [Pasywki i Ascendancy](passives.md) — drzewko, kolejność nodów
+- [Znane problemy](problems.md) — tracker otwartych luk
+- [Gear i runy](../gear.md) — ekwipunek, milestony, plan runiczny
 
-| Data | Co się zmieniło |
-|------|----------------|
-| 2026-06-06 | Stworzenie pliku. Monk lvl 9, staff + dual maces |
-| 2026-06-06 | Mechanika: Falling Thunder = Power Charge finisher, Tempest Flurry T5 |
-| 2026-06-08 | Upgrade do lvl 19. Dual weapon sets potwierdzone. Lightning+Chaos kierunek ustalony |
-| 2026-06-08 | Chaos system: Esh's Radiance + Uul-Netol + Fenumus ×2. Plan runiczny endgame. |
-| 2026-06-08 | Biblioteka socketables: 77 basic runes, 89 named runes, 78 soul cores, 13 alloys |
+---
+
+## Changelog
+
+| Data | Zmiana |
+|------|--------|
+| 2026-06-06 | Start. Monk lvl 9, staff + dual maces |
+| 2026-06-06 | Mechanika: Falling Thunder + Power Charges, Tempest Flurry T5 |
+| 2026-06-08 | Upgrade lvl 19. Lightning+Chaos kierunek. Dual weapon sets potwierdzone |
+| 2026-06-08 | Power Charge solution: Ailith's Chimes. Socketables library 348 items |
