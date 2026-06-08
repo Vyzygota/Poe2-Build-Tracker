@@ -1,7 +1,7 @@
 # Monk — Invoker Ascendancy
 **Archetype:** Lightning + Chaos | dual weapon sets | DarthLuke Skywalker  
 **Tematycznie:** Force Lightning (primary) + Dark Side Chaos (backup — never immune)  
-**Status:** Leveling | Act 1 | Level 19
+**Status:** Leveling | Act 1 | Level 22
 
 ---
 
@@ -51,6 +51,7 @@ lvl 65  →  QS + 2× Mjölnir Torment Club (214 Str + 200 Int)
 ---
 
 ## Zobacz też
+- [Roadmapa lvl 22→65](roadmap.md) — co odblokować i kiedy
 - [Gemy i supporty](gems.md) — aktualny stan + priorytety
 - [Pasywki i Ascendancy](passives.md) — drzewko, kolejność nodów
 - [Znane problemy](problems.md) — tracker otwartych luk

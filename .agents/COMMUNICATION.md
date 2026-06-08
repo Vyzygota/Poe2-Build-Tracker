@@ -4,4 +4,4 @@
 
 | Agent | Task | Status | Date | Detail |
 |---|---|---|---|---|
-| Claude Code | self-audit zewnętrznych narzędzi | done | 2026-05-31 | AGENT_WORKFLOW.md#2026-05-31-self-audit |
+| Claude Code | session start — pipeline steps 1–3 | active | 2026-06-08 | AGENT_WORKFLOW.md#2026-06-08-session-start |

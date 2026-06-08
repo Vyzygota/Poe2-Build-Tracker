@@ -1,4 +1,4 @@
-# Agent Workflow — agent-rules
+# Agent Workflow — PoE2 Build Tracker
 
 > Session log. Newest entries at top. Tags: #keyword for memory index.
 

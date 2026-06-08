@@ -8,25 +8,24 @@ Patrz [monk_invoker.md](monk_invoker.md) dla kontekstu buildu.
 
 | # | Problem | Status | Fix |
 |---|---|---|---|
-| 1 | Power Charge generation = 0 | ✅ ROZWIĄZANE | Ailith's Chimes na TF |
-| 2 | Resistances krytycznie niskie | 🔴 AKTYWNE | Storm Rune + wymiana gear |
+| 1 | Power Charge generation | 🔴 AKTYWNE | Ailith's Chimes = lvl 65 drop-only, niedostępne teraz |
+| 2 | Resistances | 🔄 ONGOING | Naturalne uzupełnianie w trakcie gry |
 | 3 | Brutality I na QS Strike | 🟡 DO WYMIANY | → Lightning Attunement I |
 | 4 | Spirit 30/30 (0 wolne) | 🟡 CZEKA | Wzrost Spirit pool przy levelup |
 
 ---
 
-## #1 — Power Charge generation ✅
+## #1 — Power Charge generation 🔴
 
-**Fix:** Ailith's Chimes (T1 DEX support) na Tempest Flurry
+**Ailith's Chimes** (T1 DEX lineage support) — mechanicznie idealny fix (combo expend → Power Charges), ale:
+- `is_lineage: true` — drop-only, NIE craftowany z Uncut Support Gem
+- Wymagany poziom: **65** (ten sam próg co Mjölnir)
 
-Tempest Flurry expends Combo przy każdym cyklu → Ailith's Chimes generuje Power Charges na każdym combo expend. Kilka razy na sekundę przy normalnym ataku.
+⚠️ Poprzednia sesja błędnie oznaczyła jako "ROZWIĄZANE" — wymaga weryfikacji alternatyw.
 
-```
-Tempest Flurry → Crescendo + Ailith's Chimes  (teraz, 2 sloty)
-              → Crescendo + Rapid Attacks + Ailith's Chimes  (gdy 3. slot)
-```
+**Plan długoterminowy:** Ailith's Chimes + Mjölnir = endgame package (lvl 65).
 
-Passive bonus: **The Power Within** (dist 5) → +1 max PC, +20% crit dmg.
+**Teraz (lvl 22):** szukamy alternatywy do generacji Power Charges. Do ustalenia.
 
 ---
 
