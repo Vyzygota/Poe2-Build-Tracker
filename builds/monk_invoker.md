@@ -35,11 +35,15 @@ Esh's Radiance: Chaos damage **buduje Shock** — oba elementy pompują ten sam 
 ## Roadmapa broni
 
 ```
-lvl 19  →  QS + 2× dowolne 1H mace
-lvl 26  →  QS + 2× Seeing Stars (+66-90 flat lightning, energy gen ×2)
-lvl 65  →  QS + 2× Mjölnir Torment Club (214 Str + 200 Int)
+lvl 22  →  QS + 2× dowolne 1H mace
+lvl 26  →  QS + 2× rare Plated Mace (crafted: % phys + Accuracy)
+lvl 46+ →  Pierwsze flat lightning mody na broni (Sparking prefix, ilvl 46)
+lvl 54  →  QS + 2× Seeing Stars (Marching Mace, Str 96, 1-45 lightning, energy gen ×2)
+lvl 65  →  QS + 2× Mjölnir Torment Club (Str 214 + Int 200)
            "Level 15 Lightning Spell on Hit" ×2 per atak
 ```
+
+**Korekta:** Seeing Stars wymaga lvl 54 i Str 96 — NIE jest dostępny na lvl 26.
 
 ---
 

@@ -52,16 +52,20 @@ Droga do celu jest tak samo ważna jak cel.
 
 ---
 
-## Lvl 26 — Seeing Stars (MILESTONE)
+## Lvl 26 — Upgrade mace + crafting
 
 **Sprzęt:**
-- 🎯 **2× Seeing Stars** (1H Mace, lvl 26): +66–90 flat lightning, energy generation doubled
-- To największy skok DPS przed Mjölnirem
+- 🎯 Upgrade na **Plated Mace** (lvl 26, Str 48) lub lepszy base → craft rare z % phys dmg + Accuracy
+- Flat lightning affixy na broni są NIEDOSTĘPNE do ilvl 46 (Sparking prefix) — skupiamy się na phys
+- Cel: zdobyć 2× craftowane rare mace z Accuracy Rating (pomaga na HitChance 70%)
 
-**Rune slot:** Legacy of Brain Rattler wymaga lvl 65 — narazie podstawowe runy lightning w broniach (Storm Rune / Ire of Aldur)
+**Rune slot:** Podstawowe runy w broniach (Storm Rune / Ire of Aldur) jeśli dropną
 
 **Passive tree:**
 - Kontynuuj Str nodes (cel: 214 do lvl 65)
+
+**UWAGA — korekta z poprzedniej sesji:**
+Seeing Stars = lvl 54, Str 96 (nie lvl 26!). Milestone przeniesiony niżej.
 
 ---
 
@@ -96,6 +100,18 @@ Droga do celu jest tak samo ważna jak cel.
 **Cel atrybutów na tym etapie:**
 - Str: ~80–100 (z 214 celu)
 - Int: ~80–100 (z 200 celu)
+
+---
+
+## Lvl 54 — Seeing Stars ×2 (MILESTONE)
+
+**Sprzęt:**
+- 🎯 **2× Seeing Stars** (Marching Mace, lvl 54, Str 96): 1–45 lightning, energy generation doubled
+- "Energy Generation doubled" = Tempest Flurry buduje combo 2× szybciej → Crescendo wybucha częściej
+- Phys 33–69, Cold 12–25, Lightning 1–45, APS 1.54–1.68
+- **Str 96 wymagane** — buduj Str nodes konsekwentnie od lvl 22
+
+**Flat lightning na broni (ilvl 46+):** Sparking prefix dostępny — zacznij dodawać lightning affixes przez Alteration/Augmentation
 
 ---
 
