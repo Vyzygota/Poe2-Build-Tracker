@@ -85,11 +85,25 @@ lvl 65      →  QS + 2× Mjölnir Torment Club (214 Str + 200 Int)
 
 ## ⚠️ Znane problemy — do naprawienia
 
-### 1. Power Charge generation = 0 [KRYTYCZNE]
-- power_charges_max: 3, ale generacja = 0
-- **Tymczasowe rozwiązanie:** Perpetual Charge na Falling Thunder (trzyma ładunki)
-- **Docelowo:** pasywka "Power Charge on Critical Strike" lub Invoker "I am the Thunder..." (generuje przy Shock)
-- Bez ładunków Invoker ascendancy nie pracuje na pełnych obrotach
+### 1. Power Charge generation — ROZWIĄZANE ✓
+
+**Rozwiązanie: Ailith's Chimes (T1 DEX support) na Tempest Flurry**
+
+> *"On expending Combo with Supported Skills, chance to gain Power Charges based on combo expended"*
+
+Tempest Flurry buduje combo (3 ciosy) i expenduję je przy 4. uderzeniu (Crescendo). Ailith's Chimes podpięte pod TF = **Power Charge przy każdym combo cycle** — kilka razy na sekundę.
+
+```
+Tempest Flurry → Crescendo + Ailith's Chimes [+ Rapid Attacks gdy 3. slot]
+```
+
+- **Atrybut:** DEX (zielony), T1 — craftuj z następnego Uncut Support Gem T1
+- **Teraz (2 sloty):** Crescendo + Ailith's Chimes (Rapid Attacks tymczasowo out)
+- **3. slot gdy odblokuje:** Crescendo + Rapid Attacks + Ailith's Chimes
+
+**Passive tree bonus (gdy punkty):**
+- **The Power Within** (dist 5 od buildu) — +1 max Power Charge, +20% crit dmg gdy masz ładunek
+- Resonance (dist 8) — SKIP: ścieżka przez 7 atrybutowych węzłów, brak frenzy gen po drodze
 
 ### 2. Resistances za niskie [KRYTYCZNE przed Act 2]
 - Fire: -48% | Lightning: -42% | Cold: +18%
@@ -116,12 +130,13 @@ lvl 65      →  QS + 2× Mjölnir Torment Club (214 Str + 200 Int)
 
 ## Gem rekomendacje (z bazy repoe-fork)
 
-| Skill | Top supports gry |
-|---|---|
-| Thunderstorm | Lightning Penetration, Shock Conduction, **Esh's Radiance** |
-| Tempest Flurry | Shock, Lightning Attunement, Momentum, Crescendo |
-| Spark | **Pierce I** (nr 1!), Zenith I, Electrocute |
-| Mace Strike | **Uul-Netol's Embrace**, Close Combat II, Culling Strike II |
+| Skill | Aktywne supporty | Następny priorytet |
+|---|---|---|
+| Tempest Flurry | Crescendo + Rapid Attacks I | **Ailith's Chimes** (T1 DEX) → Power Charges |
+| Thunderstorm | Spell Echo + Prolonged Duration | **Esh's Radiance** (INT) → Chaos buduje Shock |
+| Spark | brak | **Pierce I** (nr 1 w grze) |
+| Mace Strike | Rapid Attacks I + Concussive Runes | **Uul-Netol's Embrace** (STR) → Chaos + Armour Break |
+| QS Strike | Rapid Attacks I + Brutality I | **Zamienić Brutality** → Lightning Attunement I |
 
 ---
 

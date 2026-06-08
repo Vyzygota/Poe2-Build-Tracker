@@ -21,7 +21,10 @@
 - [x] Tempest Flurry zamiast auto-ataków — tak, to main attack od lvl 12+
 - [x] Herald of Thunder vs Herald of Ice → **Herald of Thunder** (synergia z lightning build). Rozważyć: Herald of Agony (chaos-based) gdy Chaos system będzie gotowy.
 - [ ] Esh's Radiance na Thunderstorm — przetestować Chaos → Shock buildup
-- [ ] Power Charge generation przez pasywki — znaleźć węzeł "on shock" lub "on critical"
+- [x] Power Charge generation — **rozwiązane: Ailith's Chimes (T1 DEX) na Tempest Flurry**
+  - Combo expend → chance to gain Power Charges (kilka razy/sec przy TF)
+  - Passive: The Power Within (dist 5) → +1 max PC, +20% crit dmg
+  - SKIP: Resonance (dist 8) — brak frenzy gen na ścieżce, nieopłacalne
 
 ## 2026-06-08 — Sesja 7
 
