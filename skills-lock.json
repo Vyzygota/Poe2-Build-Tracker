@@ -35,6 +35,11 @@
       "source": "vyzygota/agent-rules",
       "sourceType": "github",
       "skillPath": ".agents/skills/council/SKILL.md"
+    },
+    "validate-changes-match-specs": {
+      "source": "vyzygota/agent-rules",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/validate-changes-match-specs/SKILL.md"
     }
   }
 }
