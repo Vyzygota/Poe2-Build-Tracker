@@ -1,0 +1,31 @@
+{
+  "name": "Fragments of the Past",
+  "kind": "Skill",
+  "skill_class": "Attack",
+  "tags": ["AoE", "Projectile", "Trigger", "Sustained", "Cold", "Duration"],
+  "requires_level": 14,
+  "gem_level_observed": 5,
+  "requires_weapon": "Any Martial Weapon, Unarmed",
+  "cost": { "resource": "Runic Ward", "value": 17 },
+  "attack_speed_pct_of_base": 60,
+  "attack_damage_pct": 73,
+  "effect": "Spend Runic Ward to create a Verisium volcano that deals damage on initial eruption and Triggers Ice Fragments.",
+  "mechanics": {
+    "eruption_radius_m": 1.2,
+    "max_volcanoes": 1,
+    "volcano_duration_s": 8,
+    "initial_eruption_extra_projectiles": 2,
+    "ice_fragments_interval_s": 0.5,
+    "more_projectile_speed_pct": 50,
+    "converts_physical_to_cold_pct": 100,
+    "explosion_radius_m": 1.6
+  },
+  "element": "cold (100% phys converted)",
+  "build_fit": {
+    "rating": "SKIP",
+    "why": "Cold element (100% converted to cold). Wrong element for a lightning build."
+  },
+  "images": ["Fragments_of_the_Past.jpg", "Fragments_of_the_Past_detail.jpg"],
+  "source": "In-game tooltip screenshots 2026-06-07, Runes of Aldur league (patch 0.5)",
+  "notes": "Detonation-time value on the detail shot was partly illegible."
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Conductive Runes",
+  "kind": "Skill",
+  "skill_class": "Attack",
+  "tags": ["AoE", "Lightning", "Duration", "Hazard"],
+  "requires_level": 14,
+  "gem_level_observed": 5,
+  "cost": { "resource": "Runic Ward", "value": 24 },
+  "crit_chance_pct": 7.00,
+  "effect": "Spend Runic Ward to create a number of Hazardous Runes in a cone in front of you, which arm after a time. After arming, these Runes activate when enemies step on them, exploding to deal Attack damage and apply Electrocution buildup.",
+  "mechanics": {
+    "cone_length_m": 8.5,
+    "rune_duration_s": 15,
+    "arm_time_s": 0.4,
+    "max_active_runes": 20,
+    "detonate_delay_after_activation_s": 0.3,
+    "runes_created_per_cast": 5,
+    "explosion_radius_m": 1.8,
+    "converts_physical_to_lightning_pct": 100,
+    "more_electrocution_buildup_pct": 90,
+    "electrocution": "Lightning damage from this skill contributes to Electrocution buildup from hits with this skill"
+  },
+  "element": "lightning (100% phys converted)",
+  "build_fit": {
+    "rating": "STRONG #2 — best lightning-theme pick",
+    "why": "Pure lightning + Electrocution. Electrocute synergises with Combat Frenzy (Frenzy Charge on Electrocute) for the Invoker. Downside: hazard-placement playstyle (enemies must step on runes) — more passive/zoney than the active melee combo, awkward for single-target."
+  },
+  "images": ["Conductive_Runes_Skill.jpg", "Conductive_Runes_Skill_detail.jpg"],
+  "source": "In-game tooltip screenshots 2026-06-07, Runes of Aldur league (patch 0.5)",
+  "notes": "Some detail numbers (flat lightning roll) were partly illegible on the zoomed monitor shot; conversion 100% and +90% more electrocution are clearly legible."
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Eternal March",
+  "kind": "Skill",
+  "skill_class": "Spell",
+  "tags": ["Minion"],
+  "requires_level": 14,
+  "gem_level_observed": 5,
+  "cooldown_s": 4.00,
+  "cast_time": "Instant",
+  "cost": { "resource": "Runic Ward", "value_up_to": 94 },
+  "effect": "Spend Runic Ward to instantly Revive your Minions. Prioritises the most powerful minions first.",
+  "mechanics": {
+    "revives_minions_with_total_max_life": "4x the Runic Ward spent",
+    "max_runic_ward_spent": 94
+  },
+  "element": "n/a (minion utility)",
+  "build_fit": {
+    "rating": "SKIP",
+    "why": "Pure minion-revive utility. Not a minion build."
+  },
+  "images": ["Eternal_March.jpg"],
+  "source": "In-game tooltip screenshots 2026-06-07, Runes of Aldur league (patch 0.5)"
+}

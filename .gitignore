@@ -1,0 +1,20 @@
+# Raw source data — re-downloadable from repoe-fork/poe2 GitHub
+raw_*.json
+
+# Screenshots and item images
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Graphify output — regenerated via: graphify update .
+graphify-out/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Skills junction — recreated by self-audit (junctions don't survive clone)
+.agentskills/

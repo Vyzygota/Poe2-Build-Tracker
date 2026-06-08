@@ -1,0 +1,26 @@
+{
+  "name": "Frostflame Nova",
+  "kind": "Skill",
+  "skill_class": "Spell",
+  "tags": ["AoE", "Cold", "Fire", "Nova", "Repeatable"],
+  "requires_level": 14,
+  "gem_level_observed": 5,
+  "cost": { "resource": "Runic Ward", "value": 17 },
+  "cast_time_s": 0.70,
+  "crit_chance_pct": 12.00,
+  "deals_damage": false,
+  "effect": "Unleash a wave of volatile ice that feeds on flames. While the wave doesn't deal damage, the ice latches onto Ignited enemies, refreshing the duration of their active Ignite and rapidly Freezing them but preventing them from being Ignited further until the Ignite expires.",
+  "mechanics": {
+    "wave_radius_m": 3.5,
+    "more_freeze_buildup": "scales with enemy ailment threshold; affected by Ignite",
+    "tick_interval_s": 0.5,
+    "requires_ignite_on_target": true
+  },
+  "element": "cold/fire (utility, no damage)",
+  "build_fit": {
+    "rating": "SKIP",
+    "why": "Deals no damage, requires an Ignite source you don't have, cold/fire — entirely off a lightning build."
+  },
+  "images": ["Frostflame_Nova.jpg", "Frostflame_Nova_detail.jpg"],
+  "source": "In-game tooltip screenshots 2026-06-07, Runes of Aldur league (patch 0.5)"
+}

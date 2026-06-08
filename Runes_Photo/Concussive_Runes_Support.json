@@ -1,0 +1,26 @@
+{
+  "name": "Concussive Runes",
+  "kind": "Support",
+  "category": "Concussive Runes (Runic Shockwave)",
+  "tags": ["Attack", "AoE", "Melee", "Slam", "Trigger"],
+  "requires_level": 14,
+  "cost": { "resource": "Runic Ward", "value_level1": 7 },
+  "level_behavior": "Copies the level of the gem it is socketed in",
+  "effect": "Supports Attacks, causing a Runic Shockwave to erupt under enemies they Heavy Stun. The Shockwave costs Runic Ward and will not Trigger if you do not have enough Runic Ward.",
+  "mechanics": {
+    "trigger": "Runic Shockwave on Heavy Stunning an enemy",
+    "attack_damage_pct_level1": 130,
+    "shockwave_radius_m_level1": 2.5,
+    "cannot_cause_stun_buildup": true,
+    "restriction": "Cannot socket multiple Support Gems of the same Category in one skill"
+  },
+  "supportable_skills": ["Tempest Flurry", "Quarterstaff Strike", "Herald of Thunder", "Falling Thunder", "Armour Breaker"],
+  "element": "physical/none (adds shockwave damage)",
+  "build_fit": {
+    "rating": "TOP — best pick for this build",
+    "why": "It is a SUPPORT that slots directly into Tempest Flurry / Quarterstaff Strike (both listed as supportable). A melee Monk Heavy Stuns constantly, so it adds free AoE burst on stun. Low 7 Ward cost, flexible long-term."
+  },
+  "images": ["Concussive_Runes_Support.jpg", "Concussive_Runes_Support_detail.jpg"],
+  "source": "In-game tooltip screenshots 2026-06-07, Runes of Aldur league (patch 0.5)",
+  "notes": "All Runes-of-Aldur rune skills/supports cost the new Runic Ward resource, not mana/spirit."
+}

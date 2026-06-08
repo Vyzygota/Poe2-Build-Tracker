@@ -1,0 +1,24 @@
+{
+  "title": "Runes of Aldur — runic-stone reward choices",
+  "league": "Runes of Aldur",
+  "patch": "0.5 Return of the Ancients (2026-05-29)",
+  "captured": "2026-06-07",
+  "character": { "account": "Vyzygota#9716", "name": "DarthLuke", "class": "Monk (Invoker)", "level": 15 },
+  "context": "On maps, runic stones grant a choice of one reward. All rune skills/supports cost the new Runic Ward resource (not mana/spirit). Verisium Pile is raw runeforging currency (no photo).",
+  "options": [
+    { "name": "Concussive Runes", "kind": "Support", "element": "physical/none", "file": "Concussive_Runes_Support.json", "rating": "TOP — TAKE", "rank": 1 },
+    { "name": "Conductive Runes", "kind": "Skill", "element": "lightning", "file": "Conductive_Runes_Skill.json", "rating": "STRONG #2", "rank": 2 },
+    { "name": "Verisium Pile", "kind": "Currency", "element": "n/a", "file": null, "rating": "Safe / economy", "rank": 3 },
+    { "name": "Repulsion", "kind": "Skill", "element": "physical", "file": "Repulsion.json", "rating": "SKIP (knockback hurts melee)", "rank": 99 },
+    { "name": "Detonate Living", "kind": "Skill", "element": "physical", "file": "Detonate_Living.json", "rating": "SKIP (off-element culling)", "rank": 99 },
+    { "name": "Fragments of the Past", "kind": "Skill", "element": "cold", "file": "Fragments_of_the_Past.json", "rating": "SKIP (cold)", "rank": 99 },
+    { "name": "Frostflame Nova", "kind": "Skill", "element": "cold/fire", "file": "Frostflame_Nova.json", "rating": "SKIP (no damage, needs ignite)", "rank": 99 },
+    { "name": "Eternal March", "kind": "Skill", "element": "n/a", "file": "Eternal_March.json", "rating": "SKIP (minion revive)", "rank": 99 }
+  ],
+  "recommendation": {
+    "pick": "Concussive Runes",
+    "reason": "Support that slots straight into Tempest Flurry / Quarterstaff Strike. A melee Monk Heavy Stuns constantly -> free AoE Runic Shockwave on each stun. Cheap (7 Ward), no playstyle change, flexible. Alternative: Conductive Runes if leaning into lightning/Electrocute to feed Combat Frenzy charges.",
+    "build_notes": "Lightning Monk Invoker, Tempest Flurry combo + shock. Shock = flat 20% increased damage taken (keep elemental ailments ON). Electrocute feeds Combat Frenzy (Frenzy Charge on Electrocute)."
+  },
+  "source": "In-game tooltip screenshots, OCR by assistant. Cross-check balance-sensitive numbers against in-game tooltips."
+}

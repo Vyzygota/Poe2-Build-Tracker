@@ -1,0 +1,28 @@
+{
+  "name": "Repulsion",
+  "kind": "Skill",
+  "skill_class": "Spell",
+  "tags": ["Attack", "AoE", "Trigger", "Physical", "Duration", "Curse", "Repeatable"],
+  "requires_level": 14,
+  "gem_level_observed": 5,
+  "cost": { "resource": "Runic Ward", "value": 29 },
+  "cast_time_s": 0.50,
+  "effect": "Target an area and Curse enemies within with a Verisium Rune, inflicting them with Fragility. Hitting these enemies causes the Curse to Trigger an explosion to deal damage in an area and apply significant Knockback to other enemies near the Cursed target, with more Stun buildup based on the Fragility on the target Hit.",
+  "mechanics": {
+    "curse_apply_delay_s": 1.5,
+    "does_not_apply_above_enemy_level": 82,
+    "curse_duration_s": 6.4,
+    "fragility_applied": 20,
+    "base_physical_damage": "21 to 32",
+    "increased_knockback_distance_pct": 200,
+    "explosion_radius_m": 1.5,
+    "more_stun_buildup_on_hit_pct_per_fragility": 10
+  },
+  "element": "physical",
+  "build_fit": {
+    "rating": "SKIP",
+    "why": "Knockback pushes enemies OUT of your melee range — actively harmful to a melee combo build. Off-element (physical curse utility)."
+  },
+  "images": ["Repulsion.jpg", "Repulsion_detail.jpg"],
+  "source": "In-game tooltip screenshots 2026-06-07, Runes of Aldur league (patch 0.5)"
+}

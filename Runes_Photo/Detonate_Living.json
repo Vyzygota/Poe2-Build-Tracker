@@ -1,0 +1,25 @@
+{
+  "name": "Detonate Living",
+  "kind": "Skill",
+  "skill_class": "Spell",
+  "tags": ["AoE", "Physical", "Repeatable"],
+  "requires_level": 14,
+  "gem_level_observed": 5,
+  "cost": { "resource": "Runic Ward", "value": 17 },
+  "cast_time_s": 0.65,
+  "crit_chance_pct": 12.00,
+  "effect": "Hit an enemy under the Culling Strike Threshold, causing them to violently explode, damaging surrounding enemies. Highlights enemies under the Culling Strike Threshold.",
+  "mechanics": {
+    "base_physical_damage": "48 to 72",
+    "more_damage_based_on_corpse_max_life_pct": 8.3,
+    "explosion_radius_m": 2.6,
+    "grants_culling_strike": true
+  },
+  "element": "physical",
+  "build_fit": {
+    "rating": "SKIP",
+    "why": "Physical culling/finisher. Off-element and marginal for a lightning combo build; clear-only utility."
+  },
+  "images": ["Detonate_Living.jpg", "Detonate_Living_detail.jpg"],
+  "source": "In-game tooltip screenshots 2026-06-07, Runes of Aldur league (patch 0.5)"
+}
