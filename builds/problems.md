@@ -4,14 +4,15 @@ Patrz [monk_invoker.md](monk_invoker.md) dla kontekstu buildu.
 
 ---
 
-## Status
+## Status (zaktualizowano lvl 26 — 2026-06-13)
 
 | # | Problem | Status | Fix |
 |---|---|---|---|
-| 1 | Power Charge generation | 🔴 AKTYWNE | Ailith's Chimes = lvl 65 drop-only, niedostępne teraz |
-| 2 | Resistances | 🔄 ONGOING | Naturalne uzupełnianie w trakcie gry |
-| 3 | Brutality I na QS Strike | 🟡 DO WYMIANY | → Lightning Attunement I |
-| 4 | Spirit 30/30 (0 wolne) | 🟡 CZEKA | Wzrost Spirit pool przy levelup |
+| 1 | Power Charge generation | 🟡 CZĘŚCIOWO | Falling Thunder + Perpetual Charge generuje PC teraz! |
+| 2 | Resistances | 🔴 KRYTYCZNE | Fire -32%, Lightning -38% — chest/gloves bez resistów |
+| 3 | Brutality I na QS Strike | ✅ NAPRAWIONE | Wymienione → Lightning Attunement I (2026-06-13) |
+| 4 | Spirit 30/30 (0 wolne) | 🔴 AKTYWNE | Herald blokuje wszystko — fix: pasywki Spirit pool |
+| 5 | Hit Chance 71% | 🔴 NOWE | Brak Accuracy Rating na gear |
 
 ---
 

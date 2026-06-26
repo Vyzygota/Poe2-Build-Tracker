@@ -4,7 +4,7 @@ Lokalny notatnik do rozwijania postaci w Path of Exile 2.
 Claude Code czyta te pliki i służy jako doradca buildu z pełnym kontekstem.
 
 ## Jak używać
-W terminalu/Claude Code: wejdź do `c:\Micro_Projrcts\Poe2` i zapytaj o cokolwiek.
+W terminalu/Claude Code: wejdź do `c:\GitHUB\Poe2` i zapytaj o cokolwiek.
 Pliki są aktualizowane na bieżąco razem z postępem gry.
 
 ## Struktura

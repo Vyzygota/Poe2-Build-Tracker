@@ -6,7 +6,7 @@ Buduje graf zależności skill → compatible supports
 import json
 from pathlib import Path
 
-DATA = Path("c:/Micro_Projrcts/Poe2/raw_skill_gems.json")
+DATA = Path(__file__).parent / "raw_skill_gems.json"
 
 FOCUS_TAGS = {"lightning", "1h_mace", "one_hand_mace", "quarterstaff", "attack", "spell"}
 FOCUS_CRAFTING = {"quarterstaff", "1h mace", "one hand mace", "mace", "elemental", "melee"}
@@ -125,7 +125,7 @@ def main():
         )[:40],
     }
 
-    out_path = Path("c:/Micro_Projrcts/Poe2/skill_graph.json")
+    out_path = Path(__file__).parent / "skill_graph.json"
     out_path.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Graph saved: {out_path}")
     print(json.dumps(output["summary"], indent=2))

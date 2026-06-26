@@ -36,5 +36,5 @@
 ### Biblioteka socketables (gotowa)
 - 77 basic runes, 34 ancient runes, 17 warding runes, 89 named runes
 - 78 abyss soul cores, 13 verisium alloys, 9 jewels, 31 talismans
-- Pliki: skill_graph.json, support_gems.json (c:\Micro_Projrcts\Poe2\)
+- Pliki: skill_graph.json, support_gems.json (c:\GitHUB\Poe2\)
 - Regeneracja: `python build_graph.py` + `python build_socketables.py`

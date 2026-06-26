@@ -7,7 +7,7 @@ Dołącza do skill_graph.json
 import json
 from pathlib import Path
 
-BASE = Path("c:/Micro_Projrcts/Poe2")
+BASE = Path(__file__).parent
 
 def clean(text):
     return text.replace('[','').replace(']','').replace('|',' ').strip()

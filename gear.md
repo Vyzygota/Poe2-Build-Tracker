@@ -1,32 +1,34 @@
 # Gear — aktualny stan i cele
 
-## Aktualny ekwipunek (lvl 19)
-> Uzupełniaj po dropach
+## Aktualny ekwipunek (lvl 26 — 2026-06-13)
 
-| Slot | Item | Kluczowe mody | Runa (docelowa) |
-|------|------|--------------|-----------------|
-| Weapon Set I — QS | ? | Attack Speed > Lightning dmg | Storm Rune (res) |
-| Weapon Set II — Mace 1 | ? | Lightning dmg + flat lightning | **Legacy of Brain Rattler** |
-| Weapon Set II — Mace 2 | ? | Lightning dmg + flat lightning | **Legacy of Brain Rattler** |
-| Helm | ? | Life + Resistances | Fenumus' Rune of Agony |
-| Chest | ? | Life + ES + Evasion | Fenumus' Rune of Agony |
-| Gloves | ? | Attack Speed + Life | Storm Rune |
-| Boots | ? | Move Speed + Life + Res | Greater Storm Rune |
-| Ring 1 | ? | Lightning Res + Life | Ire of Aldur |
-| Ring 2 | ? | Fire Res + Life | Ire of Aldur |
-| Amulet | ? | Str/Int + Lightning dmg | Saqawal's Rune of the Sky |
-| Belt | ? | Life + Resistances | Saqawal's Rune of the Sky |
+| Slot | Item | Kluczowe mody | Ocena |
+|------|------|--------------|-------|
+| Set I — QS | **Dragon Bane** (Crackling QS, rare) | 63% phys, 7-10 flat phys, 2 life/hit | 🟡 brak lightning |
+| Set II — Mace 1 | **Pandemonium Mangler** (Spiked Club, rare) | 6-10 fire, 2-28 lightning, +27 acc, +1.43% crit | 🟡 fire dmg off-theme |
+| Set II — Mace 2 | Serrated Slim Mace (magic) | 57% phys, 2 life/hit | 🔴 słaba, wymień |
+| Helm | Musician's Hooded Mask (magic) | +18 life, +7% lightning res, 16% eva/ES | 🟡 mały res bonus |
+| Chest | **Fate Keep** (Marabout Garb, rare) | +10 eva, +5 ES | 🔴 brak resistów na chestcie |
+| Gloves | Azure Linen Wraps (magic) | +6 Dex (Lesser Adept Rune) | 🔴 brak życia/res |
+| Boots | Nymph's Threaded Shoes (magic) | +11 evasion, Stone Skin | 🟡 brak res/speed |
+| Ring 1 | Beryl Ruby Ring (magic) | **+28% fire res**, +12 mana, **+15% lightning res** | ✅ resist ring |
+| Ring 2 | **Glyph Grasp** (Sapphire Ring, rare) | **+28% cold res**, 6-11 cold atk, +32 mana | 🟡 cold dmg off-theme |
+| Amulet | **Surefooted Sigil** (Jade, unique) | +20 dex, +48 life, +1m dodge roll | ✅ dobre dla survivalu |
+| Belt | Hale Rawhide Belt (magic) | +14 life, +10 Str, 25% flask recovery | 🟡 ok |
+| Charm | Sapphire Charm | Aktywuje przy cold dmg hit | ok |
 
 ---
 
-## Priorytety itemowe — teraz (lvl 19–26)
+## Priorytety itemowe — teraz (lvl 26)
 
-1. **KRYTYCZNE — Resistance fix:** Fire -48%, Lightning -42%
-   - Każdy item z Fire/Lightning Res na wszystkich dostępnych slotach
-   - Storm Rune (Lesser/Normal) w sloty broni/helmu
-2. **Life** — min 100 per item slot
-3. **Attack Speed** na quarterstaff
-4. **lvl 26:** 2× Seeing Stars (farm lub trade) ← bridge weapon do Mjölnira
+1. **KRYTYCZNE — Resistance fix:** Fire -32%, Lightning -38% (cap = 75%)
+   - Potrzeba: +107% fire res i +113% lightning res z gear/pasywek
+   - Chest i gloves mają 0 resistów — to największe dziury
+   - Storm Rune w helms/gloves jeśli mają slot
+2. **Accuracy** — Hit Chance 71% → potrzeba ~200 Accuracy Rating więcej
+   - Szukaj gear z Accuracy Rating (Dex też pomaga)
+3. **Mace 2 upgrade** — wymień Serrated Slim Mace na coś z flat lightning
+4. **Life na każdym slocie** — cel: 60+ per item
 
 ---
 

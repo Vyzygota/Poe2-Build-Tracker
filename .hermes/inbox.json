@@ -1,0 +1,7 @@
+{
+  "task": "przeczytaj strukturę projektu, znajdź TODO/FIXME w kodzie i zrób mi listę 3 najważniejszych rzeczy do zrobienia",
+  "supervisor": "hermes",
+  "timestamp": "2026-06-12T00:00:00Z",
+  "expected_output": ".hermes/memory/Poe2/result.md",
+  "project_path": "C:\\GitHUB\\Poe2"
+}

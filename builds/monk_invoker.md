@@ -47,10 +47,23 @@ lvl 65  →  QS + 2× Mjölnir Torment Club (Str 214 + Int 200)
 
 ---
 
-## Statystyki (lvl 19)
-- Life: 361 · ES: 158 · Evasion: 296
-- Fire: **-48%** · Lightning: **-42%** · Cold: +18% ← FIX PRIORITY
-- Str: 31 · Dex: 42 · Int: 35 · Spirit: 30/30
+## Statystyki (lvl 26)
+- Life: **540** · Mana: 258 · ES: 217 · Evasion: 470
+- Str: **56** · Dex: 51 · Int: 25 · Spirit: 30/30 (0 wolne)
+- Fire: **-32%** · Cold: **-7%** · Lightning: **-38%** · Chaos: 0% ← FIX PRIORITY
+- Hit Chance: **71%** ← FIX (cel: 100%, brak Accuracy)
+- Crit: 7.1% effective · Crit Multi: 200%
+- TotalDPS (Tempest Flurry): 79.2 · Attack Rate: 2.78
+- League: Runes of Aldur | Ascendancy: None
+
+## Statystyki (lvl 29, in-game 2026-06-13)
+- Life: **611** · Mana: 259 · ES: 227 · Evasion: 33%
+- Str: **42** ⚠️ · Dex: 65 · Int: 36 · Spirit: 30/30 (0 wolne)
+- Fire: **+18%** ✅ · Cold: **+42%** ✅ · Lightning: **+40%** ✅ · Chaos: 0%
+- Resysty naprawione! (PoB pokazywał negatywne — gear w grze jest lepszy)
+- Set II: 2x Warpick ✅ — Gloom Ruin (lepsza: +28% phys, +64 Acc, +6% Crit) + Frosted (3 Life on Hit)
+- Cold damage na obu Warpickach — off-theme, normalne do ilvl 46 (Lightning affixes od Sparking prefix)
+- Str: ⚠️ cofnięte 56→42 przez swap STR node→INT node (dla Spark req)
 
 ---
 
@@ -71,3 +84,4 @@ lvl 65  →  QS + 2× Mjölnir Torment Club (Str 214 + Int 200)
 | 2026-06-06 | Mechanika: Falling Thunder + Power Charges, Tempest Flurry T5 |
 | 2026-06-08 | Upgrade lvl 19. Lightning+Chaos kierunek. Dual weapon sets potwierdzone |
 | 2026-06-08 | Power Charge solution: Ailith's Chimes. Socketables library 348 items |
+| 2026-06-13 | Upgrade lvl 26. Life 540, Str 56, Hit Chance 71%, Spirit 30/30. League: Runes of Aldur |

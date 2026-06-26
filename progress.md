@@ -1,9 +1,15 @@
 # Postęp w kampanii
 
 ## Aktualny stan
-- **Akt:** 1 (Ogham Farmlands area)
-- **Level:** 19
-- **Ascendancy:** Nie zrobiona (Normal Lab = po Act 3)
+- **Akt:** Act II — City of Seven Waters
+- **Level:** **26** (League: Runes of Aldur)
+- **Main skill:** Tempest Flurry
+- **Life:** 540 · Mana: 258 · Spirit: 30/30
+- **Str:** 56 · Dex: 51 · Int: 25
+- **Hit Chance:** 71% ← PROBLEM (cel: 100%)
+- **Seeing Stars:** nieznane — do potwierdzenia
+- **Ascendancy:** nieznana — do potwierdzenia
+- **Resistances:** nieznane — pokaż zakładkę Calcs w PoB
 
 ---
 
